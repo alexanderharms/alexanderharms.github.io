@@ -12,45 +12,72 @@
 
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="css/custom.css" rel="stylesheet">
 
-  <!-- Custom styles for this template -->
+  <!-- Custom styles for this template 
   <link href="css/scrolling-nav.css" rel="stylesheet">
+  -->
 
 </head>
 
 <body id="page-top">
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-<!--          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About me</a>
-</li> -->
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger"
-                href="#cursedlabeling">Cursedlabeling</a>
-          </li>
-<!--          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#simago">Simago</a>
-</li> -->
-        </ul>
-      </div>
-    </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top"
+  id="mainNav">
+    <a class="navbar-brand" href="#">Alexander Harms</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse"
+      data-target="#navbarColor03" aria-controls="navbarColor03"
+      aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarColor03">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link js-scroll-trigger" href="#">Home
+            <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger"
+            href="#simago">Simago</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger"
+            href="#cursedlabeling">Cursedlabeling</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="#timsr">timsR</a>
+      </li>
+    </ul>
+    <!--
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+    </form>
+    -->
+  </div>
   </nav>
 
   <header class="bg-primary text-white">
-    <div class="container text-center">
-      <h1>Welcome to my website!</h1>
-      <p class="lead">I like to do some programming in my spare time. Take a look at the 
-      projects I am working on.</p>
-    </div>
+  <div class="container text-center">
+      <h1> Welcome! </h1>
+      <p><big>I like to do some programming in my spare time.
+      Here are some projects I am working on.</big></p>
+  </div>
   </header>
+
+<!--
+  <section id="aboutme" class="bg-light">
+      <div class="container"> 
+      <div class="row justify-content-center">
+        <div class="col-lg-6 col-md-12 d-flex align-items-stretch">
+            
+        </div>
+      </div>
+    </div>
+  </section>
+-->
 
 <!--  <section id="about">
     <div class="container">
@@ -64,37 +91,112 @@
     </div>
 </section> -->
 
-  <section id="cursedlabeling" class="bg-light">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h2>Cursedlabeling</h2>
-          <p class="lead">When working with machine learning it's
-          necessary to have a labeled dataset to train your model on. If you're
-          out of luck, then you need to label this dataset yourself.
-          With 'cursedlabeling' I have written a small tool in Python using the
-          'curses' library to make the labeling of texts a little easier.
-          
-          Check out the repository for <a
-             href="https://github.com/alexanderharms/cursedlabeling">cursedlabeling</a>.</p>
-	  <p> <img src="images/cursedlabeling_singlelabel.png" alt="Cursedlabeling, single label example" style="width:300px;height:240px">
-	  An example of the interface in single label-mode.
-	  </p>
+<!--
+  <header id="projects" class="bg-primary text-white" style="padding: 50px 0;">
+      <div class="container text-center">
+          <h2> Projects </h2>
+      </div>
+  </header>
+-->
+
+  <section id="simago" class="bg-light">
+      <div class="container"> 
+      <div class="row justify-content-center">
+        <div class="col-lg-6 col-md-12 d-flex align-items-stretch">
+           <div class="card border-primary mb-3"> 
+            <div class="card-header">Simulation</div>
+            <div class="card-body">
+                <h4 class="card-title">Simago</h4>
+                <p class="card-text">Converting aggregated data into data about
+                populations. This data can then be used in simulation studies.</p>
+              <a class="btn btn-primary"
+                  href="https://github.com/alexanderharms/simago">
+                  Check out the repository for Simago</a>
+            </div>
+            </div>
+            <!--
+            <div class="card border-primary mb-3" style="max-width: 40rem;">
+            <div class="card-body">
+                <p class="card-text">
+                An example of the Cursedlabeling interface in single label-mode: </p>
+                <p><img src="images/cursedlabeling_singlelabel.png" 
+                    alt="Cursedlabeling, single label example"
+                    style="height:360px; width:100%; display:block;">
+                </p>
+            </div>
+            </div>
+            -->
         </div>
       </div>
     </div>
   </section>
 
-<!--  <section id="contact">
+  <section id="cursedlabeling" class="bg-light">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h2>Contact us</h2>
-          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
+      <div class="row justify-content-center">
+        <div class="col-lg-6 col-md-12 d-flex align-items-stretch">
+           <div class="card border-primary mb-3"> 
+            <div class="card-header">Text labeling</div>
+            <div class="card-body">
+                <h4 class="card-title">Cursedlabeling</h4>
+                <p class="card-text">When working with machine learning it's
+              necessary to have a labeled dataset to train your model on. If you're
+              out of luck, then you need to label this dataset yourself.
+              With 'cursedlabeling' I have written a small tool in Python using the
+              'curses' library to make the labeling of texts a little
+              easier.</p>
+              
+              <a class="btn btn-primary" href="https://github.com/alexanderharms/cursedlabeling">
+                  Check out the repository for cursedlabeling</a>
+            </div>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-12 d-flex align-items-stretch">
+            <div class="card border-primary mb-3">
+            <div class="card-body">
+                <p class="card-text">
+                An example of the Cursedlabeling interface in single label-mode: </p>
+            </div>
+            <img class="card-img-bottom" src="images/cursedlabeling_singlelabel.png" 
+                alt="Cursedlabeling, single label example" >
+            </div>
         </div>
       </div>
     </div>
-</section> -->
+  </section>
+
+  <section id="timsr" class="bg-light">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-6 col-md-12 d-flex align-items-stretch">
+           <div class="card border-primary mb-3"> 
+            <div class="card-header">Time series analysis</div>
+            <div class="card-body">
+                <h4 class="card-title">timsR</h4>
+                <p class="card-text">A utility in R to more conveniently test a
+                number of models for time series analysis.</p>
+              
+              <a class="btn btn-primary"
+                  href="https://github.com/alexanderharms/timsR">
+                  Check out the repository for timsR</a>
+            </div>
+            </div>
+        </div>
+        <!--
+        <div class="col-lg-6 col-md-12 d-flex align-items-stretch">
+            <div class="card border-primary mb-3">
+            <div class="card-body">
+                <p class="card-text">
+                An example of the Cursedlabeling interface in single label-mode: </p>
+            </div>
+            <img class="card-img-bottom" src="images/cursedlabeling_singlelabel.png" 
+                alt="Cursedlabeling, single label example" >
+            </div>
+        </div>
+        -->
+      </div>
+    </div>
+  </section>
 
   <!-- Footer -->
   <footer class="py-5 bg-dark">
