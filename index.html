@@ -49,6 +49,9 @@
       <li class="nav-item">
         <a class="nav-link js-scroll-trigger" href="#timsr">timsR</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="#publications">Publications</a>
+      </li>
     </ul>
     <!--
     <form class="form-inline my-2 my-lg-0">
@@ -63,7 +66,7 @@
   <div class="container text-center">
       <h1> Welcome! </h1>
       <p><big>I like to do some programming in my spare time.
-      Here are some projects I am working on.</big></p>
+      Here are the projects I am working on.</big></p>
   </div>
   </header>
 
@@ -79,26 +82,39 @@
   </section>
 -->
 
-<!--  <section id="about">
+<section id="about">
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h2>About this page</h2>
-          <p class="lead">On this page I like to share some programming projects
-          I have been/am working on.</p>
+        <div class="col-lg-4 col-md-12 d-flex align-self-center align-items-center">
+            <p><img src="images/pasfoto-cropped.png" 
+                alt="Picture of me"
+                style="height:360px; width:100%; display:block;">
+            </p>
+        </div>
+        <div class="col-lg-8 col-md-12 d-flex align-items-center">
+           <div class="card border-primary mb-3"> 
+            <div class="card-header">About me:</div>
+            <div class="card-body">
+                <p class="card-text">Hi! My name is Alexander Harms. My background is in
+          physics but in the last two years I've been working in the field of data
+          science. In my free time I like to work on some small programming
+          projects. They are available below. If you use the code and have any
+          feedback for me, please let me know!</p>
+            </div>
+            </div>
         </div>
       </div>
     </div>
-</section> -->
+</section>
 
-<!--
-  <header id="projects" class="bg-primary text-white" style="padding: 50px 0;">
-      <div class="container text-center">
+ <div class="container p-0 text-center" id="projects-header">
+  <header class="bg-primary text-white" style="padding: 50px 0;">
           <h2> Projects </h2>
-      </div>
   </header>
--->
+ </div>
 
+
+<div class="container mb-5" id="projects">
   <section id="simago" class="bg-light">
       <div class="container"> 
       <div class="row justify-content-center">
@@ -197,6 +213,50 @@
       </div>
     </div>
   </section>
+</div>
+
+<!--
+ <div class="container p-0 text-center" id="projects-header">
+  <header class="bg-primary text-white" style="padding: 25px 0;">
+          <h3> Publications </h3>
+  </header>
+ </div>
+-->
+
+<section id="publications" class="bg-light">
+  <div class="container"> 
+      <table class="table table-striped table-hover">
+          <caption>List of publications</caption>
+          <thead>
+              <tr> 
+                  <th scope="col"> Publications </th>
+                  <th scope="col"> </th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td> A. Harms and S. Spinder, A comprehensive view of
+                      machine learning techiniques for CPI production, <i>
+                          CBS Discussion Paper </i>, 2019 </td> 
+                  <td> 
+              <a class="btn btn-primary"
+                  href="https://www.cbs.nl/en-gb/background/2019/47/machine-learning-techniques-for-cpi-production">Link</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td> 
+                      A.G.J. Harms, Characterization of optical losses using
+                      microdisk cavities, MSc Thesis, <i>TU Delft</i>, 2017
+                  </td>
+                  <td>
+              <a class="btn btn-primary"
+                  href="documents/AlexanderHarms-MScThesis.pdf">Link</a>
+                  </td>
+              </tr>
+         </tbody>
+      </table>
+  </div>
+</section>
 
   <!-- Footer -->
   <footer class="py-5 bg-dark">
